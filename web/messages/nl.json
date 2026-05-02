@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "siteName": "La Vie Nomade · ERPA",
+    "homeDescription": "Digitale drempel naar een ervaring. The Field."
+  },
+  "nav": {
+    "menu": "Menu navigatie",
+    "openMenu": "Menu",
+    "closeMenu": "Sluiten",
+    "origin": "Origin",
+    "theField": "The Field",
+    "maison": "Maison de Resonance",
+    "applications": "Field Applications",
+    "artMovement": "Art · Movement",
+    "living": "Living Journey",
+    "community": "Community",
+    "shop": "Shop",
+    "magazine": "Magazine",
+    "requestAccess": "Request Access"
+  },
+  "home": {
+    "heroKicker": "ERPA · The Field",
+    "heroLine": "Een ander veld. Eén adem.",
+    "fieldIsYou": "The Field ben jij. Jij bent The Field.",
+    "whatFieldTitle": "Wat The Field is",
+    "whatFieldBody": "Een ruimte van resonantie. Geen verklaring—een ontmoeting. Wat je voelt als je binnenkomt, is het begin.",
+    "erpaTitle": "ERPA",
+    "erpaBody": "De structuur waarin het veld leeft: zorgzaam, precies, menselijk.",
+    "ctaPrimary": "Enter the Field",
+    "ctaSecondary": "Request Access",
+    "exploreTitle": "Verdiep",
+    "exploreSubtitle": "Doorverwijzingen naar oorsprong, de plek, toepassingen en de beweging.",
+    "visualLoopAria": "Beeldritme uit het veld"
+  },
+  "pages": {
+    "originTitle": "Origin — het verhaal van Kirti",
+    "originLead": "Het ontstaan van de visie. Een reis naar opening—gevoeld, niet uitgelegd.",
+    "theFieldTitle": "The Field",
+    "theFieldLead": "Wat het is. Hoe het ervaren wordt. Wat het kan openen—in lichtheid, zonder claims.",
+    "maisonTitle": "Maison de Resonance",
+    "maisonLead": "De plek. Field Journeys: Ether, Water, Dual. Individuele sessies · Freqwave Yoga.",
+    "accessTitle": "Request Access",
+    "accessLead": "Intake, daarna goedkeuring en jouw pad naar booking.",
+    "applicationsTitle": "Field Applications",
+    "applicationsLead": "Night Fields · festivals · corporate · kunstinstallaties.",
+    "artTitle": "Art · Movement",
+    "artLead": "From Renaissance to Resonance. Frequency art.",
+    "livingTitle": "The Living Journey",
+    "livingLead": "Stemmen uit het veld—verhalen, events, beelden.",
+    "communityTitle": "Community",
+    "communityLead": "Ik was in The Field.",
+    "shopTitle": "Shop",
+    "shopLead": "Frequency art · objects · eventstukken. Aanvragen via mail.",
+    "magazineTitle": "Magazine",
+    "magazineLead": "Digitale uitgaven. Visie als ritme.",
+    "privacyTitle": "Privacy",
+    "privacyLead": "Hoe we met jouw gegevens omgaan.",
+    "privacyBody": "Voorbereidende placeholders: geen echte juridische tekst hier. Bij oplevering: verwerkingsregister, bewaartermijnen, subverwerkers, en contact voor uitoefening van rechten. Intake‑ en aanvraagdata uit Fase A2 krijgen eigen paragraaf."
+  },
+  "common": {
+    "comingSoonNote": "Fase A1 • inhoud volgt uit CMS.",
+    "backHome": "Home"
+  },
+  "footer": {
+    "rights": "© La Vie Nomade / ERPA"
+  },
+  "accessForm": {
+    "hint": "Intake wordt gelogd op de lokale SQLite‑database tijdens development. Later: Postgres + mail + goedkeuringsflow.",
+    "name": "Naam",
+    "email": "E-mail",
+    "intent": "Korte motivatie",
+    "submit": "Verzenden",
+    "submitting": "Verzenden…",
+    "success": "Ontvangen. We lezen je intentie met zorg.",
+    "errorServer": "Er ging iets mis bij het bewaren. Probeer later opnieuw.",
+    "validation": {
+      "nameTooShort": "Voer je volledige naam in (minimaal 2 tekens).",
+      "nameTooLong": "Naam is te lang.",
+      "emailInvalid": "Voer een geldig e‑mailadres in.",
+      "intentTooShort": "Schrijf minstens twee zinnen—we willen jouw resonantie echt voelen.",
+      "intentTooLong": "Tekst te lang voor dit formulier."
+    }
+  },
+  "notFound": {
+    "title": "Deze route bestaat nog niet—of ligt in een ander veld.",
+    "body": "Placeholder; vervangen wanneer CMS-inhoud beschikbaar is.",
+    "cta": "Terug naar het begin"
+  }
+}

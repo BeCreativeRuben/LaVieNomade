@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "siteName": "La Vie Nomade · ERPA",
+    "homeDescription": "A digital threshold into experience. The Field."
+  },
+  "nav": {
+    "menu": "Menu navigation",
+    "openMenu": "Menu",
+    "closeMenu": "Close",
+    "origin": "Origin",
+    "theField": "The Field",
+    "maison": "Maison de Resonance",
+    "applications": "Field Applications",
+    "artMovement": "Art · Movement",
+    "living": "Living Journey",
+    "community": "Community",
+    "shop": "Shop",
+    "magazine": "Magazine",
+    "requestAccess": "Request Access"
+  },
+  "home": {
+    "heroKicker": "ERPA · The Field",
+    "heroLine": "Another field. One breath.",
+    "fieldIsYou": "The Field is you. You are The Field.",
+    "whatFieldTitle": "What The Field is",
+    "whatFieldBody": "A space of resonance. Not an explanation—a meeting. What you feel as you arrive is the beginning.",
+    "erpaTitle": "ERPA",
+    "erpaBody": "The structure in which the field lives—careful, precise, humane.",
+    "ctaPrimary": "Enter the Field",
+    "ctaSecondary": "Request Access",
+    "exploreTitle": "Explore",
+    "exploreSubtitle": "Pointers into origin, the place, applications, and movement.",
+    "visualLoopAria": "Visual rhythm from the field"
+  },
+  "pages": {
+    "originTitle": "Origin — the story of Kirti",
+    "originLead": "Where the vision begins. A journey into openness—felt, not over-explained.",
+    "theFieldTitle": "The Field",
+    "theFieldLead": "What it is. How it is experienced. What it may open—with lightness and without claims.",
+    "maisonTitle": "Maison de Resonance",
+    "maisonLead": "The place. Field Journeys: Ether, Water, Dual. Individual sessions · Freqwave Yoga.",
+    "accessTitle": "Request Access",
+    "accessLead": "Intake, then approval and your path to booking.",
+    "applicationsTitle": "Field Applications",
+    "applicationsLead": "Night Fields · festivals · corporate · art installations.",
+    "artTitle": "Art · Movement",
+    "artLead": "From Renaissance to Resonance. Frequency art.",
+    "livingTitle": "The Living Journey",
+    "livingLead": "Voices from the field—stories, events, film.",
+    "communityTitle": "Community",
+    "communityLead": "I was in The Field.",
+    "shopTitle": "Shop",
+    "shopLead": "Frequency art · objects · event pieces. Request via email.",
+    "magazineTitle": "Magazine",
+    "magazineLead": "Digital editions. Vision as rhythm.",
+    "privacyTitle": "Privacy",
+    "privacyLead": "How we handle your information.",
+    "privacyBody": "Placeholder only—not legal advice. At launch: processing purposes, retention, subprocessors, and how to exercise rights. Intake and request flows from Phase A2 will have their own section."
+  },
+  "common": {
+    "comingSoonNote": "Phase A1 • content will come from the CMS.",
+    "backHome": "Home"
+  },
+  "footer": {
+    "rights": "© La Vie Nomade / ERPA"
+  },
+  "accessForm": {
+    "hint": "Intake rows are saved to SQLite while developing. Later: Postgres, email alerts, approvals.",
+    "name": "Name",
+    "email": "Email",
+    "intent": "Brief intent",
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "success": "Received. We'll read your words with care.",
+    "errorServer": "Saving failed—please retry later.",
+    "validation": {
+      "nameTooShort": "Add your full name (at least 2 characters).",
+      "nameTooLong": "Name is too long.",
+      "emailInvalid": "Provide a valid email address.",
+      "intentTooShort": "Write at least two sentences—we need to sense your resonance.",
+      "intentTooLong": "Too long for this form."
+    }
+  },
+  "notFound": {
+    "title": "This path does not exist—or it lives in another field.",
+    "body": "Placeholder; will be refined when CMS content is available.",
+    "cta": "Return to the entrance"
+  }
+}

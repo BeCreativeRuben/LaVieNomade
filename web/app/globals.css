@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+:root {
+  --lvn-bg-base: #050505;
+  --lvn-bg-elevated: #0c0c0c;
+  --lvn-bg-surface: #141414;
+  --lvn-border-subtle: rgba(255, 255, 255, 0.08);
+  --lvn-fg-primary: #f5f2eb;
+  --lvn-fg-muted: rgba(245, 242, 235, 0.62);
+  --lvn-accent: #c6a659;
+  --lvn-accent-soft: rgba(198, 166, 89, 0.35);
+
+  --text-xs: clamp(0.75rem, 0.72rem + 0.15vw, 0.8125rem);
+  --text-sm: clamp(0.875rem, 0.82rem + 0.24vw, 0.9375rem);
+  --text-base: clamp(1rem, 0.94rem + 0.35vw, 1.0625rem);
+  --text-lg: clamp(1.125rem, 1rem + 0.55vw, 1.25rem);
+  --text-xl: clamp(1.375rem, 1.12rem + 1vw, 1.625rem);
+  --text-display: clamp(2.75rem, 1.75rem + 4.5vw, 5rem);
+
+  --section-y: clamp(5rem, 12vw, 11rem);
+  --gutter-x: clamp(1.25rem, 4vw, 3.5rem);
+}
+
+@theme inline {
+  --color-lvn-bg-base: var(--lvn-bg-base);
+  --color-lvn-bg-elevated: var(--lvn-bg-elevated);
+  --color-lvn-bg-surface: var(--lvn-bg-surface);
+  --color-lvn-border-subtle: var(--lvn-border-subtle);
+  --color-lvn-fg-primary: var(--lvn-fg-primary);
+  --color-lvn-fg-muted: var(--lvn-fg-muted);
+  --color-lvn-accent: var(--lvn-accent);
+  --color-lvn-accent-soft: var(--lvn-accent-soft);
+
+  --font-display: var(--font-cormorant), ui-serif, Georgia, serif;
+  --font-sans: var(--font-dm-sans), system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--lvn-bg-base);
+  color: var(--lvn-fg-primary);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: 1.6;
+}
+
+/* Gold underline link treatment */
+.lvn-link {
+  position: relative;
+  display: inline-block;
+  color: var(--lvn-fg-primary);
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+}
+
+.lvn-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.12em;
+  width: 100%;
+  height: 1px;
+  background: var(--lvn-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.24s ease-out;
+}
+
+.lvn-link:hover::after,
+.lvn-link:focus-visible::after {
+  transform: scaleX(1);
+}
+
+.lvn-link:hover,
+.lvn-link:focus-visible {
+  color: var(--lvn-accent);
+}
+
+.lvn-prose-narrow {
+  max-width: 36rem;
+}
+
+/* Subtle scroll-reveal (progressive enhancement) */
+.lvn-reveal {
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    opacity 0.42s ease-out,
+    transform 0.42s ease-out;
+}
+
+.lvn-reveal[data-visible="true"] {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lvn-reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
