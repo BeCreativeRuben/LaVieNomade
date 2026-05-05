@@ -85,7 +85,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       lang={locale}
       className={`${fontDisplay.variable} ${fontSans.variable} ${fontMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-lvn-bg-base text-lvn-fg-primary flex flex-col">
+      <body className="h-svh overflow-hidden bg-lvn-bg-base text-lvn-fg-primary flex flex-col">
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main className="grow flex flex-col">{children}</main>
