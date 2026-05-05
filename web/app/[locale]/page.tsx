@@ -1,62 +1,23 @@
-import { getTranslations } from "next-intl/server";
-import { ScrollReveal } from "@/components/interactions/ScrollReveal";
-import { ExploreGrid } from "@/components/sections/ExploreGrid";
-import { Hero } from "@/components/sections/Hero";
-import { VisualLoop } from "@/components/sections/VisualLoop";
-
-export default async function HomePage() {
-  const t = await getTranslations("home");
-
+export default function HomePage() {
   return (
-    <>
-      <Hero />
-
-      <section className="border-t border-lvn-border-subtle py-[clamp(5rem,12vw,11rem)]">
-        <div className="mx-auto max-w-7xl px-[clamp(1.25rem,4vw,3.5rem)]">
-          <ScrollReveal>
-            <blockquote className="font-[family-name:var(--font-display)] text-[length:clamp(2rem,2vw+1.75rem,3.25rem)] font-medium tracking-[-0.02em] text-lvn-accent">
-              {t("fieldIsYou")}
-            </blockquote>
-          </ScrollReveal>
-        </div>
-      </section>
-
-      <section className="border-t border-lvn-border-subtle bg-lvn-bg-elevated py-[clamp(5rem,12vw,11rem)]">
-        <div className="mx-auto grid max-w-7xl gap-14 px-[clamp(1.25rem,4vw,3.5rem)] lg:grid-cols-12 lg:items-start">
-          <ScrollReveal>
-            <div className="lg:col-span-5">
-              <h2 className="font-[family-name:var(--font-display)] text-[length:var(--text-xl)] text-lvn-fg-primary">
-                {t("whatFieldTitle")}
-              </h2>
-            </div>
-          </ScrollReveal>
-          <ScrollReveal>
-            <p className="lvn-prose-narrow lg:col-span-7 text-[length:var(--text-lg)] leading-relaxed text-lvn-fg-muted">
-              {t("whatFieldBody")}
-            </p>
-          </ScrollReveal>
-        </div>
-      </section>
-
-      <section className="border-t border-lvn-border-subtle py-[clamp(5rem,12vw,11rem)]">
-        <div className="mx-auto grid max-w-7xl gap-14 px-[clamp(1.25rem,4vw,3.5rem)] lg:grid-cols-12 lg:items-start">
-          <ScrollReveal>
-            <div className="lg:col-span-5">
-              <h2 className="font-[family-name:var(--font-display)] text-[length:var(--text-xl)] text-lvn-accent">
-                {t("erpaTitle")}
-              </h2>
-            </div>
-          </ScrollReveal>
-          <ScrollReveal>
-            <p className="lvn-prose-narrow lg:col-span-7 text-[length:var(--text-lg)] leading-relaxed text-lvn-fg-muted">
-              {t("erpaBody")}
-            </p>
-          </ScrollReveal>
-        </div>
-      </section>
-
-      <VisualLoop />
-      <ExploreGrid />
-    </>
+    <section className="flex min-h-[70vh] items-center border-t border-lvn-border-subtle">
+      <div className="mx-auto max-w-4xl px-[clamp(1.25rem,4vw,3.5rem)] py-[clamp(4rem,10vw,8rem)] text-center">
+        <h1 className="font-[family-name:var(--font-display)] text-[length:var(--text-display)] font-medium tracking-[-0.02em] text-lvn-accent">
+          Tuning In to High Frequencies
+        </h1>
+        <p className="mx-auto mt-8 max-w-2xl text-[length:var(--text-lg)] leading-relaxed text-lvn-fg-muted">
+          Onze website is in onderhoud en zal binnenkort opengaan voor het publiek.
+          Hou onze socials in de gaten om op de hoogte te blijven!
+        </p>
+        <a
+          href="https://www.instagram.com/erpa.lavienomade/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-10 inline-block rounded-sm border border-lvn-accent bg-lvn-accent/10 px-6 py-3 text-[length:var(--text-xs)] font-semibold uppercase tracking-[0.14em] text-lvn-accent transition-colors hover:bg-lvn-accent/20"
+        >
+          Instagram
+        </a>
+      </div>
+    </section>
   );
 }

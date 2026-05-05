@@ -94,12 +94,16 @@ export function RequestAccessForm() {
         <label className="block text-[length:var(--text-xs)] uppercase tracking-[0.12em] text-lvn-fg-muted">
           {t("intent")}
         </label>
+        <p className="mt-2 text-[length:var(--text-sm)] text-lvn-fg-muted">
+          {t("intentPrompt")}
+        </p>
         <textarea
           name="intent"
           rows={8}
           required
           minLength={40}
           disabled={pending}
+          placeholder={t("intentPlaceholder")}
           className="mt-2 w-full border border-lvn-border-subtle bg-lvn-bg-elevated px-3 py-2 text-[length:var(--text-base)] text-lvn-fg-primary outline-none ring-lvn-accent/40 transition-shadow focus-visible:ring-2"
         />
         {state?.ok === false && state.fieldErrors?.intent ? (

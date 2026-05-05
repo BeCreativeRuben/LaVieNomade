@@ -69,6 +69,8 @@
     "name": "Naam",
     "email": "E-mail",
     "intent": "Korte motivatie",
+    "intentPrompt": "Omschrijf kort waarom Maison de Resonance nu relevant is voor jou, wat je wil openen en in welke context (persoonlijk, praktijk, performance, team).",
+    "intentPlaceholder": "Bijvoorbeeld: waarom nu, wat verwacht je, en hoe zie je dit in je traject?",
     "submit": "Verzenden",
     "submitting": "Verzenden…",
     "success": "Ontvangen. We lezen je intentie met zorg.",
@@ -85,5 +87,38 @@
     "title": "Deze route bestaat nog niet—of ligt in een ander veld.",
     "body": "Placeholder; vervangen wanneer CMS-inhoud beschikbaar is.",
     "cta": "Terug naar het begin"
+  },
+  "markets": {
+    "marketsAnchorNavLabel": "Markten en toepassingen",
+    "cta": "Vraag toegang of overleg",
+    "art": {
+      "label": "Kunst & Muziek",
+      "body": "Van DJ-sets tot installaties: frequentie als artistieke laag die ruimte, publiek en performer mee laat resoneren."
+    },
+    "sport": {
+      "label": "Sport & Performance",
+      "body": "Voor atleten en teams die focus, herstel en opbouw naar topprestaties structureel willen ondersteunen."
+    },
+    "hospitality": {
+      "label": "Hospitality & F&B",
+      "body": "Voor venues en belevingsconcepten waar sfeer, ritme en gastbeleving centraal staan."
+    },
+    "wellbeing": {
+      "label": "Wellbeing",
+      "body": "Voor praktijken en begeleiders die met intentie werken rond rust, zelfzorg en innerlijke afstemming."
+    }
+  },
+  "maison": {
+    "entryRule": "Maison de Resonance werkt uitsluitend op afspraak. Toegang start via Request Access.",
+    "journeys": "Journeys: Ether, Water en Dual in een huiselijke en discrete setting.",
+    "privateSessions": "Individuele sessies en trajecten op intentie, niet op volume.",
+    "freqwave": "Freqwave Yoga en aanvullende momenten in kleine groepen.",
+    "cta": "Request Access voor Maison"
+  },
+  "accessPage": {
+    "intro": "Deze toegang werkt in twee richtingen: jullie intentie en onze afstemming bepalen samen of dit moment klopt.",
+    "step1": "Stap 1: je deelt kort jouw context en intentie.",
+    "step2": "Stap 2: we beoordelen met zorg en helderheid.",
+    "step3": "Stap 3: bij match krijg je toegang tot de volgende stap."
   }
 }

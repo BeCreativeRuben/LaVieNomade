@@ -69,6 +69,8 @@
     "name": "Name",
     "email": "Email",
     "intent": "Brief intent",
+    "intentPrompt": "Briefly describe why Maison de Resonance is relevant to you now, what you seek to open, and in which context (personal, practice, performance, team).",
+    "intentPlaceholder": "For example: why now, what do you hope to open, and how does this fit your path?",
     "submit": "Send request",
     "submitting": "Sending…",
     "success": "Received. We'll read your words with care.",
@@ -85,5 +87,38 @@
     "title": "This path does not exist—or it lives in another field.",
     "body": "Placeholder; will be refined when CMS content is available.",
     "cta": "Return to the entrance"
+  },
+  "markets": {
+    "marketsAnchorNavLabel": "Markets and applications",
+    "cta": "Request access or consultation",
+    "art": {
+      "label": "Art & Music",
+      "body": "From DJ sets to installations: frequency as an artistic layer that helps space, audience, and performer resonate together."
+    },
+    "sport": {
+      "label": "Sport & Performance",
+      "body": "For athletes and teams seeking structured support for focus, recovery, and high-performance progression."
+    },
+    "hospitality": {
+      "label": "Hospitality & F&B",
+      "body": "For venues and experience concepts where atmosphere, rhythm, and guest experience are central."
+    },
+    "wellbeing": {
+      "label": "Wellbeing",
+      "body": "For practices and facilitators working with intention around rest, self-care, and inner alignment."
+    }
+  },
+  "maison": {
+    "entryRule": "Maison de Resonance is strictly by appointment. Access starts through Request Access.",
+    "journeys": "Journeys: Ether, Water, and Dual in a homelike and discreet setting.",
+    "privateSessions": "Individual sessions and tracks shaped by intention, not volume.",
+    "freqwave": "Freqwave Yoga and additional moments in small groups.",
+    "cta": "Request Access for Maison"
+  },
+  "accessPage": {
+    "intro": "This threshold works both ways: your intention and our alignment together decide whether this is the right moment.",
+    "step1": "Step 1: share your context and intention.",
+    "step2": "Step 2: we review with care and clarity.",
+    "step3": "Step 3: if aligned, you receive access to the next step."
   }
 }

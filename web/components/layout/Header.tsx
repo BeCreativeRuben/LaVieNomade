@@ -8,10 +8,9 @@ const navKeys = [
   ["origin", "/origin"],
   ["theField", "/the-field"],
   ["maison", "/maison"],
+  ["living", "/living-journey"],
   ["applications", "/field-applications"],
   ["artMovement", "/art-movement"],
-  ["living", "/living-journey"],
-  ["community", "/community"],
   ["shop", "/shop"],
   ["magazine", "/magazine"],
 ] as const;
