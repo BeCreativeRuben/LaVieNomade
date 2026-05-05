@@ -20,7 +20,7 @@ export function LocaleSwitcher() {
       className="rounded-sm border border-lvn-border-subtle px-2 py-1 text-[length:var(--text-xs)] uppercase tracking-[0.14em] text-lvn-fg-muted transition-colors hover:border-lvn-accent hover:text-lvn-accent"
       aria-label={`Switch language to ${labels[other]}`}
     >
-      {labels[other]}
+      {labels[locale] ?? "EN"}
     </button>
   );
 }
