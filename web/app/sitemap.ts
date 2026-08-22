@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
+import { getAllIssueSlugs } from "@/lib/magazine/issues";
 
 const routePaths = [
   "",
@@ -42,6 +43,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${baseUrl()}/${locale}${path}`,
         changeFrequency: "weekly",
         priority: path === "" ? 1 : 0.7,
+      });
+    }
+  }
+
+  for (const slug of getAllIssueSlugs()) {
+    for (const locale of routing.locales) {
+      entries.push({
+        url: `${baseUrl()}/${locale}/magazine/${slug}/read`,
+        changeFrequency: "monthly",
+        priority: 0.6,
       });
     }
   }
