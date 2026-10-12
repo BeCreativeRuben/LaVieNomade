@@ -57,6 +57,54 @@
     "privacyLead": "How we handle your information.",
     "privacyBody": "Placeholder only—not legal advice. At launch: processing purposes, retention, subprocessors, and how to exercise rights. Intake and request flows from Phase A2 will have their own section."
   },
+  "magazine": {
+    "heroSubtitle": "Step into the future of human experience.",
+    "freeIssueLine": "The first issue is free to read in the browser.",
+    "openCta": "Open the magazine",
+    "subscribeLine": "Subscribe to the magazine",
+    "subscribeButton": "Subscribe",
+    "pageCount": "{count} pages",
+    "signalLabel": "Signal",
+    "signalPrompt": "Get updates?",
+
+    "reader": {
+      "contents": "Contents",
+      "close": "Close",
+      "previous": "Previous",
+      "next": "Next",
+      "cover": "Cover",
+      "inThisIssue": "In this issue",
+      "resumeMessage": "You left off at page {page}.",
+      "resumeAction": "Resume",
+      "dismissAction": "Dismiss",
+      "issueLabel": "Issue",
+      "pageOf": "{current} / {total}"
+    },
+
+    "issue01": {
+      "title": "Between Worlds",
+      "season": "Summer · 2026",
+      "subtitle": "A new chapter — resonance, encounters, and what grows in silence.",
+      "description": "A new chapter of La Vie Nomade & ERPA — foreword, whispers, culture of resonance, portraits, Frequency Dance Night, Resonance, Troubadours, and thanks to the community.",
+      "forewordQuote": "Some stories disappear, while others grow quiet — and transform.",
+      "forewordTitle": "The World Between Us",
+      "forewordBody": "This is the first edition of our magazine. Not as proof that we have arrived, but as a marker — of what is moving, what is shifting, and what is beginning to take form.\n\nBetween worlds is not a place you visit. It is where you already are — when you stop explaining and start listening.\n\nWhat follows is a collection of voices, reflections, and encounters from the field. Some emerged from silence. Others from movement. All of them carry something that resists being pinned down — and that is precisely their value.\n\nWelcome to this space between.",
+      "toc01": "Foreword — The World Between Us",
+      "toc02": "Whispers Between Worlds",
+      "toc03": "The Culture of Resonance",
+      "toc04": "Her Stream of Consciousness",
+      "toc05": "Anthology — Between Worlds",
+      "toc06": "Encounters from the Field",
+      "toc07": "Portrait — Maarten",
+      "toc08": "Frequency Dance Night",
+      "toc09": "Beyond the Stage",
+      "toc10": "Resonance: The New Renaissance",
+      "toc11": "Frequency Field of Hospitality",
+      "toc12": "Troubadours on the Road",
+      "toc13": "The True Power of the Spoken Word",
+      "toc14": "To the Community"
+    }
+  },
   "common": {
     "comingSoonNote": "Phase A1 • content will come from the CMS.",
     "backHome": "Home"
