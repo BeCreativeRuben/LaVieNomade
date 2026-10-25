@@ -21,7 +21,7 @@
     "sanity": "^5.23.0",
     "sharp": "0.35.5",
     "styled-components": "^6.4.1",
-    "zod": "^4.4.2"
+    "zod": "^4.6.7"
   },
   "overrides": {
     "@vercel/frameworks": {
