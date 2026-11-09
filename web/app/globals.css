@@ -118,3 +118,40 @@ body {
     transform: none;
   }
 }
+
+/* ─── Magazine reader ─── */
+
+.reader-root {
+  --reader-header-h: 3rem;
+  --reader-bottom-h: 2.5rem;
+}
+
+.reader-viewport {
+  height: calc(100svh - var(--reader-header-h) - var(--reader-bottom-h));
+}
+
+.reader-page {
+  max-height: 100%;
+}
+
+.reader-page > div {
+  max-height: 100%;
+}
+
+@media (max-width: 640px) {
+  .reader-root {
+    --reader-header-h: 2.75rem;
+    --reader-bottom-h: 2.25rem;
+  }
+
+  .reader-nav-arrow {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .reader-page > div {
+    max-width: min(100%, calc((100vh - 6rem) * 0.75));
+  }
+}

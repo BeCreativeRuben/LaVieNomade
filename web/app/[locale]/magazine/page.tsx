@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { ContentPage } from "@/components/templates/ContentPage";
+import { issues } from "@/lib/magazine/issues";
+import { MagazineListing } from "@/components/magazine/MagazineListing";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -13,13 +14,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function MagazinePage() {
+export default async function MagazinePage({ params }: Props) {
+  const { locale } = await params;
   const t = await getTranslations("pages");
-  const c = await getTranslations("common");
+  const m = await getTranslations("magazine");
+
+  const issueCards = issues.map((issue) => ({
+    slug: issue.slug,
+    issueNumber: issue.issueNumber,
+    totalPages: issue.totalPages,
+    coverImage: issue.coverImage,
+    readHref: `/${locale}/magazine/${issue.slug}/read`,
+  }));
 
   return (
-    <ContentPage title={t("magazineTitle")} lead={t("magazineLead")}>
-      <p>{c("comingSoonNote")}</p>
-    </ContentPage>
+    <MagazineListing
+      title={t("magazineTitle")}
+      lead={m("heroSubtitle")}
+      freeIssueLine={m("freeIssueLine")}
+      openCta={m("openCta")}
+      subscribeLine={m("subscribeLine")}
+      subscribeButton={m("subscribeButton")}
+      issues={issueCards}
+      locale={locale}
+    />
   );
 }

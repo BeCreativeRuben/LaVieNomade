@@ -16,46 +16,94 @@
     "community": "Community",
     "shop": "Shop",
     "magazine": "Magazine",
-    "requestAccess": "Request Access"
+    "requestAccess": "Toegang aanvragen"
   },
   "home": {
     "heroKicker": "ERPA · The Field",
     "heroLine": "Een ander veld. Eén adem.",
     "fieldIsYou": "The Field ben jij. Jij bent The Field.",
     "whatFieldTitle": "Wat The Field is",
-    "whatFieldBody": "Een ruimte van resonantie. Geen verklaring—een ontmoeting. Wat je voelt als je binnenkomt, is het begin.",
+    "whatFieldBody": "Een ruimte van resonantie. Geen verklaring — een ontmoeting. Wat je voelt als je binnenkomt, is het begin.",
     "erpaTitle": "ERPA",
     "erpaBody": "De structuur waarin het veld leeft: zorgzaam, precies, menselijk.",
     "ctaPrimary": "Enter the Field",
-    "ctaSecondary": "Request Access",
+    "ctaSecondary": "Toegang aanvragen",
     "exploreTitle": "Verdiep",
     "exploreSubtitle": "Doorverwijzingen naar oorsprong, de plek, toepassingen en de beweging.",
     "visualLoopAria": "Beeldritme uit het veld"
   },
   "pages": {
     "originTitle": "Origin — het verhaal van Kirti",
-    "originLead": "Het ontstaan van de visie. Een reis naar opening—gevoeld, niet uitgelegd.",
+    "originLead": "Het ontstaan van de visie. Een reis naar opening — gevoeld, niet uitgelegd.",
     "theFieldTitle": "The Field",
-    "theFieldLead": "Wat het is. Hoe het ervaren wordt. Wat het kan openen—in lichtheid, zonder claims.",
+    "theFieldLead": "Wat het is. Hoe het ervaren wordt. Wat het kan openen — in lichtheid, zonder claims.",
     "maisonTitle": "Maison de Resonance",
     "maisonLead": "De plek. Field Journeys: Ether, Water, Dual. Individuele sessies · Freqwave Yoga.",
-    "accessTitle": "Request Access",
+    "accessTitle": "Toegang aanvragen",
     "accessLead": "Intake, daarna goedkeuring en jouw pad naar booking.",
     "applicationsTitle": "Field Applications",
     "applicationsLead": "Night Fields · festivals · corporate · kunstinstallaties.",
     "artTitle": "Art · Movement",
-    "artLead": "From Renaissance to Resonance. Frequency art.",
+    "artLead": "Van Renaissance naar Resonantie. Frequentiekunst.",
     "livingTitle": "The Living Journey",
-    "livingLead": "Stemmen uit het veld—verhalen, events, beelden.",
+    "livingLead": "Stemmen uit het veld — verhalen, events, beelden.",
     "communityTitle": "Community",
     "communityLead": "Ik was in The Field.",
     "shopTitle": "Shop",
-    "shopLead": "Frequency art · objects · eventstukken. Aanvragen via mail.",
+    "shopLead": "Frequentiekunst · objecten · eventstukken. Aanvragen via mail.",
     "magazineTitle": "Magazine",
     "magazineLead": "Digitale uitgaven. Visie als ritme.",
     "privacyTitle": "Privacy",
     "privacyLead": "Hoe we met jouw gegevens omgaan.",
-    "privacyBody": "Voorbereidende placeholders: geen echte juridische tekst hier. Bij oplevering: verwerkingsregister, bewaartermijnen, subverwerkers, en contact voor uitoefening van rechten. Intake‑ en aanvraagdata uit Fase A2 krijgen eigen paragraaf."
+    "privacyBody": "Voorbereidende placeholders: geen echte juridische tekst hier. Bij oplevering: verwerkingsregister, bewaartermijnen, subverwerkers, en contact voor uitoefening van rechten. Intake‑ en aanvraagdata uit Fase A2 krijgen een eigen paragraaf."
+  },
+  "magazine": {
+    "heroSubtitle": "Stap de toekomst van menselijke ervaring binnen.",
+    "freeIssueLine": "De eerste uitgave is gratis te lezen in de browser.",
+    "openCta": "Open het magazine",
+    "subscribeLine": "Abonneer op het magazine",
+    "subscribeButton": "Abonneren",
+    "pageCount": "{count} pagina's",
+    "signalLabel": "Signaal",
+    "signalPrompt": "Op de hoogte blijven?",
+
+    "reader": {
+      "contents": "Inhoud",
+      "close": "Sluiten",
+      "previous": "Vorige",
+      "next": "Volgende",
+      "cover": "Omslag",
+      "inThisIssue": "In deze uitgave",
+      "resumeMessage": "Je was gebleven bij pagina {page}.",
+      "resumeAction": "Verdergaan",
+      "dismissAction": "Sluiten",
+      "issueLabel": "Uitgave",
+      "pageOf": "{current} / {total}"
+    },
+
+    "issue01": {
+      "title": "Tussen werelden",
+      "season": "Zomer · 2026",
+      "subtitle": "Een nieuw hoofdstuk — resonantie, ontmoetingen, en wat in stilte groeit.",
+      "description": "Een nieuw hoofdstuk van La Vie Nomade & ERPA — voorwoord, fluisteringen, de cultuur van resonantie, portretten, Frequency Dance Night, Resonantie, Troubadours, en een woord aan de gemeenschap.",
+      "forewordQuote": "Sommige verhalen verdwijnen. Andere worden stil — en veranderen.",
+      "forewordTitle": "De wereld tussen ons",
+      "forewordBody": "Dit is de eerste uitgave van ons magazine. Niet als bewijs dat we er zijn, maar als markering — van wat beweegt, wat verschuift, en wat langzaam vorm krijgt.\n\nTussen werelden is geen plek die je bezoekt. Het is waar je al bent — zodra je het verklaren loslaat en begint te luisteren.\n\nWat volgt is een verzameling stemmen, overdenkingen en ontmoetingen uit het veld. Sommige ontstonden uit stilte. Andere uit beweging. Ze dragen allemaal iets dat zich niet laat vastpinnen — en juist daarin schuilt hun waarde.\n\nWelkom in deze tussenruimte.",
+      "toc01": "Voorwoord — De wereld tussen ons",
+      "toc02": "Fluisteringen tussen werelden",
+      "toc03": "De cultuur van resonantie",
+      "toc04": "Haar bewustzijnsstroom",
+      "toc05": "Bloemlezing — Tussen werelden",
+      "toc06": "Ontmoetingen uit het veld",
+      "toc07": "Portret — Maarten",
+      "toc08": "Frequency Dance Night",
+      "toc09": "Voorbij het podium",
+      "toc10": "Resonantie: de nieuwe renaissance",
+      "toc11": "Het frequentieveld van gastvrijheid",
+      "toc12": "Troubadours onderweg",
+      "toc13": "De ware kracht van het gesproken woord",
+      "toc14": "Aan de gemeenschap"
+    }
   },
   "common": {
     "comingSoonNote": "Fase A1 • inhoud volgt uit CMS.",
@@ -79,18 +127,18 @@
       "nameTooShort": "Voer je volledige naam in (minimaal 2 tekens).",
       "nameTooLong": "Naam is te lang.",
       "emailInvalid": "Voer een geldig e‑mailadres in.",
-      "intentTooShort": "Schrijf minstens twee zinnen—we willen jouw resonantie echt voelen.",
+      "intentTooShort": "Schrijf minstens twee zinnen — we willen jouw resonantie echt voelen.",
       "intentTooLong": "Tekst te lang voor dit formulier."
     }
   },
   "notFound": {
-    "title": "Deze route bestaat nog niet—of ligt in een ander veld.",
+    "title": "Deze route bestaat nog niet — of ligt in een ander veld.",
     "body": "Placeholder; vervangen wanneer CMS-inhoud beschikbaar is.",
     "cta": "Terug naar het begin"
   },
   "markets": {
     "marketsAnchorNavLabel": "Markten en toepassingen",
-    "cta": "Vraag toegang of overleg",
+    "cta": "Vraag toegang of overleg aan",
     "art": {
       "label": "Kunst & Muziek",
       "body": "Van DJ-sets tot installaties: frequentie als artistieke laag die ruimte, publiek en performer mee laat resoneren."
@@ -100,23 +148,23 @@
       "body": "Voor atleten en teams die focus, herstel en opbouw naar topprestaties structureel willen ondersteunen."
     },
     "hospitality": {
-      "label": "Hospitality & F&B",
+      "label": "Gastvrijheid & F&B",
       "body": "Voor venues en belevingsconcepten waar sfeer, ritme en gastbeleving centraal staan."
     },
     "wellbeing": {
-      "label": "Wellbeing",
+      "label": "Welzijn",
       "body": "Voor praktijken en begeleiders die met intentie werken rond rust, zelfzorg en innerlijke afstemming."
     }
   },
   "maison": {
-    "entryRule": "Maison de Resonance werkt uitsluitend op afspraak. Toegang start via Request Access.",
+    "entryRule": "Maison de Resonance werkt uitsluitend op afspraak. Toegang begint met een aanvraag.",
     "journeys": "Journeys: Ether, Water en Dual in een huiselijke en discrete setting.",
     "privateSessions": "Individuele sessies en trajecten op intentie, niet op volume.",
     "freqwave": "Freqwave Yoga en aanvullende momenten in kleine groepen.",
-    "cta": "Request Access voor Maison"
+    "cta": "Toegang aanvragen voor Maison"
   },
   "accessPage": {
-    "intro": "Deze toegang werkt in twee richtingen: jullie intentie en onze afstemming bepalen samen of dit moment klopt.",
+    "intro": "Deze toegang werkt in twee richtingen: jouw intentie en onze afstemming bepalen samen of dit het juiste moment is.",
     "step1": "Stap 1: je deelt kort jouw context en intentie.",
     "step2": "Stap 2: we beoordelen met zorg en helderheid.",
     "step3": "Stap 3: bij match krijg je toegang tot de volgende stap."

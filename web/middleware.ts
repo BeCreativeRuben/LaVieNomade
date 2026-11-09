@@ -12,16 +12,32 @@ function applyMaintenanceHeaders(response: NextResponse) {
   return response;
 }
 
+const OPEN_ROUTE_PATTERNS = [
+  /^\/$/,
+  /^\/(?:nl|en)$/,
+  /^\/(?:nl|en)\/magazine(?:\/.*)?$/,
+];
+
+function isOpenRoute(pathname: string): boolean {
+  return OPEN_ROUTE_PATTERNS.some((p) => p.test(pathname));
+}
+
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+
+  if (pathname.startsWith("/fr")) {
+    const rest = pathname.replace(/^\/fr/, "") || "/";
+    const target = new URL(`/en${rest === "/" ? "" : rest}`, request.url);
+    return NextResponse.redirect(target, 308);
+  }
+
   const segments = pathname.split("/").filter(Boolean);
   const firstSegment = segments[0];
   const locale = routing.locales.includes(firstSegment as "nl" | "en")
     ? firstSegment
     : routing.defaultLocale;
 
-  const allowedPathnames = new Set(["/", `/${locale}`]);
-  if (!allowedPathnames.has(pathname)) {
+  if (!isOpenRoute(pathname)) {
     const redirectResponse = NextResponse.redirect(
       new URL(`/${locale}`, request.url),
     );
@@ -33,5 +49,5 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
+  matcher: ["/((?!api|_next|_vercel|studio|.*\\..*).*)"],
 };
